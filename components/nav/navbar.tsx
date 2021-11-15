@@ -26,7 +26,7 @@ const Nav = () => {
             </TabItem>
           </Link>
 
-          <Link href='/method'>
+          <Link href='/gallery'>
             <TabItem href='/' color='#dfcad5'>
               Gallery
             </TabItem>
