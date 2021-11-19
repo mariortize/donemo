@@ -2,7 +2,9 @@ import styled from 'styled-components';
 
 export const UseCaseImage = styled.img`
   --initial-height: 600px;
-  --initial-width: 70%;
+  --initial-width: 850px;
+
+  margin-top: 1rem;
 
   border-radius: 1rem;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.75);

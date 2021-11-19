@@ -32,11 +32,11 @@ const Nav = () => {
             </TabItem>
           </Link>
 
-          <Link href='/support'>
+          {/* <Link href='/support'>
             <TabItem href='/' color='rgba(0,0,0,0.6)'>
               Stages Map
             </TabItem>
-          </Link>
+          </Link> */}
           {/* <TabItem href="/team" color="#546884">
                     Team
                 </TabItem> */}
@@ -45,11 +45,11 @@ const Nav = () => {
               Q&A/Chat
             </TabItem>
           </Link>
-          <Link href='/soon'>
+          {/* <Link href='/soon'>
             <TabItem href='/' color='rgba(0,0,0,0.6)'>
               Learn more
             </TabItem>
-          </Link>
+          </Link> */}
         </TabNavigator>
         <Spacer />
         {/* <div
