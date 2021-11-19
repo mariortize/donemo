@@ -14,6 +14,7 @@ export default function Gallery() {
     align-items: center;
     margin-top: 5rem;
   `;
+
   return (
     <>
       <div className={styles.container}>

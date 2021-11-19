@@ -358,6 +358,11 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.0.tgz#7f698254aadf921e48dda8c0a6b304026b8a9323"
   integrity sha512-JLo+Y592QzIE+q7Dl2pMUtt4q8SKYI5jDrZxrozEQxnGVOyYE+GWK9eLkwTaeN9DDctlaRAQ3TBmzZ1qdLE30A==
 
+"@typeform/embed@^1.18.1":
+  version "1.22.1"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-1.22.1.tgz#fb9ee2a9391829f7b8dd0675d5523f136085b792"
+  integrity sha512-iaEE3JDQ9anYh8lUlo94c0TrYT8j09nRaByuOs5YHIvG+aOySAYybI7Pc7PO5WrZLlPb2Em9jVCFLPRmBqt6QA==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
@@ -1983,6 +1988,11 @@ json5@^1.0.1:
     array-includes "^3.1.3"
     object.assign "^4.1.2"
 
+keen-slider@5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/keen-slider/-/keen-slider-5.5.1.tgz#1493f552eadf0f5b8229defd83c626eb6dd58c13"
+  integrity sha512-QXGZGt5Hbe0YufR/RYbOG03MmOk43RQEXqkkSvjr8ZS67sVR7LRp5RIvJALfjl+A7BnHNr1wd1QBOemwy65Lfw==
+
 language-subtag-registry@~0.3.2:
   version "0.3.21"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.21.tgz#04ac218bea46f04cb039084602c6da9e788dd45a"
@@ -2590,6 +2600,11 @@ react-is@^16.7.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-parallax-tilt@1.5.76:
+  version "1.5.76"
+  resolved "https://registry.yarnpkg.com/react-parallax-tilt/-/react-parallax-tilt-1.5.76.tgz#4bce0b24c439bcf8e37a97d24c421018bc1c8d29"
+  integrity sha512-rz+hSq/rNrYEbMDSWwAzOrukoNopmAPchQmqXb8GqBJoeZkRFc4SKGPb0I7nCfaLPQPtsNIcdN30v0KKoqKxTg==
+
 react-refresh@0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
@@ -2599,6 +2614,13 @@ react-slideshow-with-pagination@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/react-slideshow-with-pagination/-/react-slideshow-with-pagination-1.0.2.tgz#c5cd853ba51508fa86d5bb62cf1d3a66e95d8d3f"
   integrity sha512-1FGo+Rdj/y7r5WIak5cNtqXQ/F2ZVhEWGArhwHy2RMH/KikcHijpLq2ivNfNAiOQYCwR6rqM9Cu5ZJEf4v80hA==
+
+react-typeform-embed@1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/react-typeform-embed/-/react-typeform-embed-1.0.7.tgz#c3c5ab7d8b0818bd252e115c068f2d97de4f7f30"
+  integrity sha512-17Yzac211Xjy0hB9mfGI6H/pGaml+olQtNlhDcTEvgTp42MHKvDDFjA1dEKn+sbqljm/NSLrd0DLB/uVNnXASg==
+  dependencies:
+    "@typeform/embed" "^1.18.1"
 
 react@17.0.2:
   version "17.0.2"

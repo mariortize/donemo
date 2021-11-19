@@ -1,5 +1,6 @@
 import React from 'react';
 import SlideshowWithPagination from 'react-slideshow-with-pagination';
+import GalleryFlow from './Flow';
 
 const CARDS_DETAILS = [
   { image: '/placeholder.jpeg', title: 'The best' },
@@ -18,7 +19,7 @@ const Slideshow = () => {
   return (
     // Slideshow with preset card features along with pagination and arrow buttons
     <>
-      <SlideshowWithPagination
+      {/* <SlideshowWithPagination
         options={CARDS_DETAILS}
         showNumbers={true}
         showDots={true}
@@ -28,7 +29,8 @@ const Slideshow = () => {
         slideshowContainerMaxWidth={false}
         cardWidth={500}
         cardHeight={300}
-      />
+      /> */}
+      <GalleryFlow />
     </>
   );
 };
