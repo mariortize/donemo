@@ -21,40 +21,34 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href='https://nextjs.org/docs' className={styles.card}>
+          <a className={styles.card}>
             <img
-              src='/placeholder.jpeg'
-              height='100%'
-              width='100%'
+              src='https://i.ibb.co/2PSn7JP/D81-DC3-E8-A7-CD-4-A0-E-809-F-A4-FA5-D1-AE857.jpg'
+              height='300'
+              width='300'
+              style={{ borderRadius: '10px', transform: 'rotate(90deg)' }}
+            />
+          </a>
+
+          <a className={styles.card}>
+            <img
+              src='https://i.ibb.co/F8VJ9Xg/ED230335-EBF4-4-CD6-A5-E8-0-E57842-F7968.jpg'
+              height='300'
+              width='300'
               style={{ borderRadius: '10px' }}
             />
           </a>
 
-          <a href='https://nextjs.org/learn' className={styles.card}>
+          <a className={styles.card}>
             <img
-              src='/placeholder.jpeg'
-              height='100%'
-              width='100%'
-              style={{ borderRadius: '10px' }}
+              src='https://i.ibb.co/r6fkx5H/7681559-B-49-F5-4-C4-D-A378-8-B62-D8541-B0-C.jpg'
+              height='300'
+              width='300'
+              style={{ borderRadius: '10px', transform: 'rotate(180deg)' }}
             />
           </a>
 
-          <a
-            href='https://github.com/vercel/next.js/tree/master/examples'
-            className={styles.card}
-          >
-            <img
-              src='/placeholder.jpeg'
-              height='100%'
-              width='100%'
-              style={{ borderRadius: '10px' }}
-            />
-          </a>
-
-          <a
-            href='https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-            className={styles.card}
-          >
+          <a className={styles.card}>
             <img
               src='/placeholder.jpeg'
               height='100%'
@@ -66,11 +60,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
+        <a target='_blank' rel='noopener noreferrer'>
           by Maria Jose Ortiz
         </a>
       </footer>
