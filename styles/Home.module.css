@@ -1,6 +1,21 @@
 .container {
   padding: 0 2rem;
-  background-color: #9e8576;
+  background: #03001e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #c481b1,
+    #ec38bc,
+    #7303c0,
+    #2d1eb9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #c481b1,
+    #ec38bc,
+    #7303c0,
+    #2d1eb9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding-top: 2rem;
 }
 

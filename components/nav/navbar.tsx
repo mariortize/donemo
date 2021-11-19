@@ -40,7 +40,7 @@ const Nav = () => {
           {/* <TabItem href="/team" color="#546884">
                     Team
                 </TabItem> */}
-          <Link href='/soon'>
+          <Link href='/chat'>
             <TabItem href='/' color='#dfcad5'>
               Q&A/Chat
             </TabItem>
