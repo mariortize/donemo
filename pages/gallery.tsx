@@ -8,7 +8,7 @@ import styled from 'styled-components';
 export default function Gallery() {
   const Main = styled.main`
     min-height: 100vh;
-    padding: 4rem 0;
+    padding: 0;
     flex: 1;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ export default function Gallery() {
           Gallery
         </h1>
         <p className={styles.description}>
-          A curated art gallery - made with ❤️ by Donelia Morales.
+          The best of the best works - showcased for you.
         </p>
         <Main>
           <MyGallery />

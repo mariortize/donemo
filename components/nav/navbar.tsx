@@ -21,19 +21,19 @@ const Nav = () => {
         <Spacer />
         <TabNavigator>
           <Link href='/'>
-            <TabItem href='/' color='#dfcad5'>
+            <TabItem href='/' color='rgba(0,0,0,0.6)'>
               Home
             </TabItem>
           </Link>
 
           <Link href='/gallery'>
-            <TabItem href='/' color='#dfcad5'>
+            <TabItem href='/' color='rgba(0,0,0,0.6)'>
               Gallery
             </TabItem>
           </Link>
 
           <Link href='/support'>
-            <TabItem href='/' color='#dfcad5'>
+            <TabItem href='/' color='rgba(0,0,0,0.6)'>
               Stages Map
             </TabItem>
           </Link>
@@ -41,12 +41,12 @@ const Nav = () => {
                     Team
                 </TabItem> */}
           <Link href='/chat'>
-            <TabItem href='/' color='#dfcad5'>
+            <TabItem href='/' color='rgba(0,0,0,0.6)'>
               Q&A/Chat
             </TabItem>
           </Link>
           <Link href='/soon'>
-            <TabItem href='/' color='#dfcad5'>
+            <TabItem href='/' color='rgba(0,0,0,0.6)'>
               Learn more
             </TabItem>
           </Link>

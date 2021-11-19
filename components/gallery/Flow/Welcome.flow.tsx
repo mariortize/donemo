@@ -35,7 +35,7 @@ export default function GalleryFlow() {
           </>
         )}
       </div>
-      {slider && (
+      {/* {slider && (
         <div className='dots'>
           {[...Array(slider.details().size).keys()].map((idx) => {
             return (
@@ -49,7 +49,7 @@ export default function GalleryFlow() {
             );
           })}
         </div>
-      )}
+      )} */}
     </Wrapper>
   );
 }
