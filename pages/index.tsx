@@ -50,9 +50,9 @@ export default function Home() {
 
           <a className={styles.card}>
             <img
-              src='/placeholder.jpeg'
-              height='100%'
-              width='100%'
+              src='https://i.ibb.co/BZ1fScG/03-D01-B62-7741-41-D9-BD0-D-6-AB91-A032-B25-1-201-a.jpg'
+              height='300'
+              width='300'
               style={{ borderRadius: '10px' }}
             />
           </a>
