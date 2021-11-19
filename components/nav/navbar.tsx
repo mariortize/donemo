@@ -15,11 +15,15 @@ const Nav = () => {
           }}
         >
           <a href='/'>
-            <img src='/logo.png' height='40' />
+            <img
+              src='/logo.png'
+              height='30'
+              width='89'
+              style={{ borderRadius: '10px' }}
+            />
           </a>
         </div>
-        <Spacer />
-        <TabNavigator>
+        <TabNavigator style={{ marginLeft: '2rem' }}>
           <Link href='/'>
             <TabItem href='/' color='rgba(0,0,0,0.6)'>
               Home
