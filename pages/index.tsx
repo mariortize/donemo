@@ -17,7 +17,7 @@ export default function Home() {
         <h1 className={styles.title}>Donemo</h1>
 
         <p className={styles.description}>
-          A curated art gallery - made with ❤️ by Donelia Morales.
+          A curated art gallery - made with love by Donelia Morales.
         </p>
 
         <div className={styles.grid}>
